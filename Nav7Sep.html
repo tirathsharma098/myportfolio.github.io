@@ -1,0 +1,297 @@
+                         <!-- Website Structural Designing goes here -->
+<!DOCTYPE html>
+<html>
+
+                                   <!-- Heading goes here -->
+
+<head>
+
+<title>
+Navigation Bar
+</title>
+
+<meta name="" value="" />
+<meta name="" value="" />
+
+<link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
+<link href=""  rel="" type="" />
+
+                             <!-- Cascading Style Sheet is here -->
+
+<style type="text/css">
+
+body{
+margin : 0px;
+height : 2000px;
+}
+
+#UpperNav{
+padding : 10px;
+margin-bottom : -16px;
+background-color : hsl(207, 100%, 81%);
+height : 250px;
+}
+
+#MainHeaderHeading{
+text-align:center;
+position:relative;
+top:80px;
+left : -20px;
+margin:0px auto;
+font-size:60px;
+letter-spacing:0.1em;
+width:350px;
+}
+
+#Portfolio{
+font-family:Arvo;
+}
+
+#Thought{
+font-family: 'Kalam', cursive;
+font-size : 22px;
+}
+
+#AuthorImageContainer{
+position : absolute;
+top : 50px;
+right : 50px;
+}
+
+#AuthorImage{
+width : 100px;
+height : 100px;
+border : 2px solid black;
+border-radius : 100%;
+margin : 0px;
+}
+
+#AuthorImageWhiteBorder{
+width : 104px;
+height : 104px;
+border : 4px solid hsla(0, 0%, 96%,1);
+border-radius : 100%;
+margin : 0px;
+}
+
+#AuthorImageCaption{
+font-family : cursive;
+margin-left : -10px;
+font-size : 18px;
+font-style : bold;
+margin-top : 10px;
+}
+
+#NavigationContainer{
+position : sticky;
+top : 0px;
+}
+
+nav{
+background-color : #F1D8D8;
+height : 50px;
+width : 100%;
+}
+
+#NavigationList{
+list-style-type : none;
+}
+
+.NavList{
+float : left;
+font-size : 24px;
+padding-top : 11px;
+padding-bottom : 11px;
+padding-right : 26px;
+padding-left : 26px;
+border-right : 4px solid #CE7878;
+}
+
+#About{
+float : right;
+margin-right : 20px;
+border-left : 4px solid #CE7878;
+border-right : none;
+}
+
+#Home{
+margin-left : 50px;
+}
+
+.NavList:hover{
+background-color : #4F4F4F;
+}
+
+.NavList:hover a{
+color : #FCFCFC;
+}
+
+.NavList a{
+text-decoration : none;
+color : #4E0DAF;
+}
+
+#DropContact,#DropChapters{
+position : absolute;
+display : none;
+margin : 10px 0px 0px -15px;
+background-color : rgb(254, 202, 98);
+padding : 2px;
+border-radius : 10px;
+box-shadow : 0px 4px 20px 0px #5C5C5C;
+}
+
+#DropContact ul,#DropChapters ul{
+list-style-type : none;
+margin-left : -40px;
+}
+
+#Contact:hover #DropContact,#Chapters:hover #DropChapters{
+display : block;
+}
+
+#DropContact li,#DropChapters li{
+padding : 10px 20px;
+}
+
+#DropContact li a,#DropChapters li a{
+color : rgba(28, 166, 28,1);
+}
+
+#DropContact li:hover,#DropChapters li:hover{
+box-shadow : 2px 2px 5px 0px rgba(181, 181, 181,1);
+background-color : rgba(252, 227, 227,1);
+}
+
+#MainRow{
+box-sizing : border-box;
+}
+
+.Column{
+float : left;
+padding : 5% 0 0 5%;
+box-sizing : border-box;
+
+}
+
+#Column1{
+width : 60%;
+padding : 2% 10% 2% 10%;
+margin : ;
+font-size : 24px;
+font-family : "Cormorant Garamond";
+line-height : 2em;
+word-spacing :;
+letter-spacing : 0.1em;
+background-color : hsl(0,11%,96%);
+}
+
+#Column2{
+font-family: 'Courgette', cursive;
+margin : 0px;
+padding : 2% 8% 2% 8%;
+width : 40%;
+font-size : 26px;
+letter-spacing : 0.1em;
+line-height : 1.5em;
+}
+
+#Column2 h4{
+color : red;
+}
+
+</style>
+                   <!--  Java Script is HERE -->
+
+<script>
+
+</script>				   
+</head>
+
+
+
+         <!-- Main body goes here( Everythig that shown on website that will written indide body element ) -->
+
+<body>
+
+<header>
+<div id="UpperNav">
+<figure id="AuthorImageContainer">
+<div id="AuthorImageWhiteBorder"><img src="imagehtml/TirathRoughHair.jpg" id="AuthorImage" title="Author : Tirath Sharma"></div>
+<figcaption id="AuthorImageCaption">Tirath Sharma</figcaption>
+</figure>
+<div id="MainHeaderHeading">
+<div id="Portfolio">Portfolio</div>
+<div id="Thought"> Lets, Work together.</div>
+</div>
+</div>
+</header>
+
+<nav id="NavigationContainer">
+<ul id="NavigationList">
+<li class="NavList" id="Home"><a href="#">Home</a></li>
+<li class="NavList" id="Contact"><a href="#">Contact</a>
+<div id="DropContact">
+<ul>
+<li><a href="#">Twitter</a></li>
+<li><a href="#">Facebook</a></li>
+<li><a href="#">Instagram</a></li>
+<li><a href="#">Snapchat</a></li>
+</ul>
+</div>
+</li>
+<li class="NavList" id="Chapters"><a href="#">Skills</a>
+<div id="DropChapters">
+<ul>
+<li><a href="#">Web Designing</a></li>
+<li><a href="#">Html, CSS</a></li>
+<li><a href="#">JavaScript</a></li>
+<li><a href="#">Basics of C, C++</a></li>
+<li><a href="#">Computer Hardware(Certificate Included)</a></li>
+<li><a href="#">CCC</a></li>
+</ul>
+</div>
+</li>
+<li class="NavList" id="About"><a href="#">About</a></li>
+</ul>
+</nav>
+
+<div id="MainRow">
+<div class="Column" id="Column1">
+<p>
+Hello, I am Tirath Sharma.<br/>
+ I had completed 10+2 from City Vocational Public School, Meerut. 
+After Intermediate I had done a Cource of Computer Harware and Networking. Than I completed
+a course of CCC (Course On Computer Concepts). Than I pursing an BSC,CS or BCS(Bachelor of 
+Computer Science), Which is an three year's of Course. <br/>
+Besides this, I also know front end Web Development by Self Learning and a lot of practice.
+</p>
+</div>
+<div class="Column" id="Column2">
+<h4>My Skills Are : </h4>
+<ul>
+<li>Basics of Computer Hardware and Networking</li>
+<li>Computer Concepts</li>
+<li>C</li>
+<li>C++</li>
+<li>Java</li>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>Typing</li>
+</ul>
+</div>
+</div>
+
+
+                 <!--  Some JAVASCRIPT GOES HERE -->
+
+<script>
+
+</script>
+				 
+</body>
+</html>
